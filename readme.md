@@ -38,8 +38,8 @@ This is a Django web application for managing student records, allowing users to
     FLUSH PRIVILEGES;
 
 #### 4. Clone the Repository:
-    git clone https://github.com/your-username/student-records.git
-    cd student-records
+    git clone https://github.com/your-username/student_project.git
+    cd student_project
 
 #### 5.Create a Virtual Environment:
     python -m venv myenv
@@ -48,6 +48,8 @@ This is a Django web application for managing student records, allowing users to
 #### 6.Install Dependencies
     pip install -r requirements.txt
 
+##### navigate to django app named student_project(again):
+      cd student_project
 #### 7.Update Database Configuration
     Open the student_project/settings.py file and update the DATABASES section::
 
